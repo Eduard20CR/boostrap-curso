@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- LINK -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col">
+          <div class="d-flex justify-content-center">
+            <button
+              class="btn btn-lg btn-outline-primary"
+              data-bs-toggle="popover"
+              title="Estupido"
+              data-bs-content="Laboris fugiat laboris labore nostrud adipisicing voluptate aliqua adipisicing. Exercitation et fugiat Lorem magna minim elit amet aute ipsum. Lorem sint exercitation adipisicing fugiat consectetur incididunt anim aliquip minim sunt nisi adipisicing enim enim. Excepteur id aliqua sunt irure adipisicing Lorem et exercitation eiusmod. Veniam laboris adipisicing adipisicing deserunt sit sint.Eiusmod eiusmod excepteur veniam in. Lorem mollit non proident ad amet. Qui laborum dolore incididunt minim non enim. Deserunt consequat nostrud culpa cillum quis consectetur laboris ut commodo irure adipisicing officia ex."
+              data-bs-placement="right"
+            >
+              Imbecil
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SCRIPTS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+      const popoverTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="popover"]'
+      );
+      const popoverList = [...popoverTriggerList].map(
+        (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+      );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- LINK -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <!--  -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+          aria-controls="menu"
+          aria-expanded="false"
+          aria-label="menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--  -->
+        <div id="menu" class="navbar-collapse collapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+            <li class="nav-item dropdown">
+              <a
+                id="dropdown-menu"
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Category</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="dropdown-menu">
+                <li><a class="dropdown-item" href="">Test1</a></li>
+                <li><a class="dropdown-item" href="">Test1</a></li>
+                <li><a class="dropdown-item" href="">Test1</a></li>
+                <li><a class="dropdown-item" href="">Test1</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Iini</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Test</a></li>
+          </ul>
+          <form class="d-flex" action="">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="buscar"
+              name=""
+              id=""
+            />
+            <button class="btn btn-outline-light">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- SCRIPTS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

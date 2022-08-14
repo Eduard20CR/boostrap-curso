@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- LINK -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col">
+          <form action="">
+            <div class="row">
+              <div class="col-12 col-lg-6 mb-3">
+                <label class="form-label" for="name">Name</label>
+                <input
+                  id="name"
+                  class="form-control"
+                  type="text"
+                  name="name"
+                  placeholder="Oscar"
+                />
+              </div>
+              <div class="col-12 col-lg-6 mb-3">
+                <label class="form-label" for="email">Email</label>
+                <input
+                  id="email"
+                  class="form-control"
+                  type="email"
+                  name="email"
+                  placeholder="@gmail.com"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6 mb-3">
+                <label class="form-label" for="mensaje">Mensaje</label>
+                <textarea
+                  class="form-control"
+                  name="mensaje"
+                  id="mensaje"
+                ></textarea>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 mb-2">
+                <label class="form-label" for="estado">Estado Civil</label>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="Estado"
+                    id="soltero"
+                  />
+                  <label class="form-check-label" for="soltero">
+                    Soltero
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="Estado"
+                    id="casado"
+                  />
+                  <label class="form-check-label" for="casado"> Casado </label>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 mb-3">
+                <label class="form-label" for="pais">Pais</label>
+                <select class="form-select" name="pais" id="pais">
+                  <option value="costaRica">Costa Rica</option>
+                  <option value="megico">Mejico</option>
+                  <option value="espanita">Espania</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="d-flex flex-column align-items-center">
+                  <div>
+                    <div class="form-check mb-4">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Terminos y condicions
+                      </label>
+                    </div>
+                    <div class="btn btn-primary w-100" type="submit">
+                      Submit
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- SCRIPTS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .contenedor {
+        margin-bottom: 2rem;
+        background: skyblue;
+        color: #fff;
+        height: 10rem;
+      }
+
+      .contenedor > div {
+        background-color: rgba(100, 100, 255, 0.4);
+        padding: 1rem;
+        border: 1px solid black;
+      }
+    </style>
+    <!-- LINK -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row m-5">
+        <div class="col-12">
+          <h4>Fill</h4>
+          <hr />
+          <div class="contenedor d-flex">
+            <div class="">Lorem, ipsum.</div>
+            <div class="flex-fill">.flex-fill</div>
+            <div class="flex-fill">.flex-fill</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SCRIPTS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
